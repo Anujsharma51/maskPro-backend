@@ -23,10 +23,10 @@ const login = async (req, res) => {
 function getUsers(req, res) {
   res.json({ message: "Get users successful" });
 };
-
-module.exports = { login, getUsers };
 function updateUser(req, res) {
   res.json({ message: "Update users successful" });
 }
 
-module.exports = { login, getUsers };
+
+
+module.exports = { login, getUsers,updateUser };
