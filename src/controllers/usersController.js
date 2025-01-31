@@ -25,3 +25,8 @@ function getUsers(req, res) {
 }
 
 module.exports = { login, getUsers };
+function updateUser(req, res) {
+  res.json({ message: "Update users successful" });
+}
+
+module.exports = { login, getUsers };
