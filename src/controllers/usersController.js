@@ -22,6 +22,6 @@ const login = async (req, res) => {
 
 function getUsers(req, res) {
   res.json({ message: "Get users successful" });
-}
+};
 
 module.exports = { login, getUsers };
